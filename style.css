@@ -7,7 +7,7 @@ body {
 
     margin-left: 40%;
     margin-top: 11%;
-    background: linear-gradient(#000000, #094279, #4edab5);
+    background: linear-gradient(#1d1d1d, gray, white);
     width: 250px;
     height: 444px;
     border: solid 6px;
@@ -20,9 +20,10 @@ body {
     margin-top: 36px;
     width: 85%;
     height: 41px;
-    border: solid 4px;
-    border-color: midnightblue;
+    border: solid 2px;
+    border-color: rgb(102, 102, 146);
     border-radius: 9px;
+    
     font-size: xx-large;
     font-family: sans-serif;
     /* pointer-events: none; */
@@ -30,7 +31,7 @@ body {
 }
 
 .button{
-
+    margin: 30px 0;
     display: inline-flex;
     height: 50px;
     padding: 0;
