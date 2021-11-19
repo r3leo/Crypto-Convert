@@ -26,34 +26,37 @@ body {
     
     font-size: xx-large;
     font-family: sans-serif;
-    /* pointer-events: none; */
+    pointer-events: none;
     text-align: right;
 }
 
 .button{
+
+    width: auto;
     margin: 30px 0;
+    margin-left: 10px;
     display: inline-flex;
     height: 50px;
     padding: 0;
     background: gray;
     border: none;
     outline: none;
-    border-radius: 5px;
+    border-radius: 200px;
     overflow: hidden;
     font-family: 'Quicksand', sans-serif;
-    font-size: 16px;
+    font-size: 21px;
     font-weight: 500;
     cursor: pointer;
 }
 
 .button:hover{
 
-    background: #008168;
+    background: #c5be5d;
 }
 
 .button:active{
 
-    background: #006e58;
+    background: #a7a154;
 }
 
 .button__text,
