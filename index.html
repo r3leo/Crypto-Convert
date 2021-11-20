@@ -1,90 +1,84 @@
 <!DOCTYPE html>
-    <html>
-        <head>
+<html>
+  <head>
+    <title>Crypto to USD Converter</title>
 
-            <title>Crypto to USD Converter</title>
+    <link type="text/css" href="style.css" rel="stylesheet" />
 
-            <link type="text/css" href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-            <script src="javascript.js"></script>
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-
-        </head>
-
-
-    <body>
+  <body>
     <div class="mainbody">
-        
-            <h3 class="input-title">Crypto:</h3>
-            <span class="crypto-type">BTC</span>
-            <input type="text" class="input" onblur="getValue()">
-        
-            <div class="button-grid">
-                <button type="button" class="button">
-                    <span class="button__icon">
-                        <ion-icon name="logo-bitcoin"></ion-icon>
-                    </span>
-                </button>  
-                <button type="button" class="button">
-                    <span class="button__icon">
-                        <ion-icon name="logo-bitcoin"></ion-icon>
-                    </span>
-                </button>  
-                <button type="button" class="button">
-                    <span class="button__icon">
-                        <ion-icon name="logo-bitcoin"></ion-icon>
-                    </span>
-                </button>  
-                <button type="button" class="button">
-                    <span class="button__icon">
-                        <ion-icon name="logo-bitcoin"></ion-icon>
-                    </span>
-                </button>  
-                <button type="button" class="button">
-                    <span class="button__icon">
-                        <ion-icon name="logo-bitcoin"></ion-icon>
-                    </span>
-                </button>  
-                <button type="button" class="button">
-                    <span class="button__icon">
-                        <ion-icon name="logo-bitcoin"></ion-icon>
-                    </span>
-                </button>  
-                <button type="button" class="button">
-                    <span class="button__icon">
-                        <ion-icon name="logo-bitcoin"></ion-icon>
-                    </span>
-                </button>  
-                <button type="button" class="button">
-                    <span class="button__icon">
-                        <ion-icon name="logo-bitcoin"></ion-icon>
-                    </span>
-                </button>  
-            </div>
+      <h3 class="input-title">Crypto:</h3>
+      <div id="crypto">BTC</div>
+      <input type="number" class="input" onblur="getValue()" />
 
-            <h3 class="output-title">USD:</h3>
-            <span class="monetary">$</span>
-            <input type="text" class="output">
+      <div class="button-grid">
+        <button type="button" class="button" onclick="changeToBtc()">
+          <span class="button__icon">
+            <ion-icon name="logo-bitcoin"></ion-icon>
+          </span>
+        </button>
+        <button type="button" class="button button-eth" onclick="changeToEth()">
+          <span class="button__icon">
+            <i class="fab fa-ethereum"></i>
+          </span>
+        </button>
+        <button type="button" class="button">
+          <span class="button__icon">
+            <ion-icon name="logo-bitcoin"></ion-icon>
+          </span>
+        </button>
+        <button type="button" class="button">
+          <span class="button__icon">
+            <ion-icon name="logo-bitcoin"></ion-icon>
+          </span>
+        </button>
+        <button type="button" class="button">
+          <span class="button__icon">
+            <ion-icon name="logo-bitcoin"></ion-icon>
+          </span>
+        </button>
+        <button type="button" class="button">
+          <span class="button__icon">
+            <ion-icon name="logo-bitcoin"></ion-icon>
+          </span>
+        </button>
+        <button type="button" class="button">
+          <span class="button__icon">
+            <ion-icon name="logo-bitcoin"></ion-icon>
+          </span>
+        </button>
+        <button type="button" class="button">
+          <span class="button__icon">
+            <ion-icon name="logo-bitcoin"></ion-icon>
+          </span>
+        </button>
+      </div>
+
+      <h3 class="output-title">USD:</h3>
+      <span class="monetary">$</span>
+      <input type="number" class="output" />
     </div>
-    
-    
+    <script
+      src="https://kit.fontawesome.com/0bf5e173d4.js"
+      crossorigin="anonymous"
+    ></script>
 
-
-
-
-
-
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-
-        
-    </body>
-
-
-
-
-    </html>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="javascript.js"></script>
+  </body>
+</html>
