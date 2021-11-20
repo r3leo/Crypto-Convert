@@ -7,32 +7,67 @@
             <link type="text/css" href="style.css" rel="stylesheet">
 
             <script src="javascript.js"></script>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 
         </head>
 
 
     <body>
-    <div id="mainbody">
+    <div class="mainbody">
         
-        <div>
-            <input type="text" id="screen">
-        </div>
-        <div class="but">
-            <button type="button" class="button">
-                <!-- <span class="button__text">Bitcoin</span> -->
-                
-                <span class="button__icon">
-                    <ion-icon name="logo-bitcoin"></ion-icon>
-                </span>
+            <h3 class="input-title">Crypto:</h3>
+            <span class="crypto-type">BTC</span>
+            <input type="text" class="input" onblur="getValue()">
+        
+            <div class="button-grid">
+                <button type="button" class="button">
+                    <span class="button__icon">
+                        <ion-icon name="logo-bitcoin"></ion-icon>
+                    </span>
+                </button>  
+                <button type="button" class="button">
+                    <span class="button__icon">
+                        <ion-icon name="logo-bitcoin"></ion-icon>
+                    </span>
+                </button>  
+                <button type="button" class="button">
+                    <span class="button__icon">
+                        <ion-icon name="logo-bitcoin"></ion-icon>
+                    </span>
+                </button>  
+                <button type="button" class="button">
+                    <span class="button__icon">
+                        <ion-icon name="logo-bitcoin"></ion-icon>
+                    </span>
+                </button>  
+                <button type="button" class="button">
+                    <span class="button__icon">
+                        <ion-icon name="logo-bitcoin"></ion-icon>
+                    </span>
+                </button>  
+                <button type="button" class="button">
+                    <span class="button__icon">
+                        <ion-icon name="logo-bitcoin"></ion-icon>
+                    </span>
+                </button>  
+                <button type="button" class="button">
+                    <span class="button__icon">
+                        <ion-icon name="logo-bitcoin"></ion-icon>
+                    </span>
+                </button>  
+                <button type="button" class="button">
+                    <span class="button__icon">
+                        <ion-icon name="logo-bitcoin"></ion-icon>
+                    </span>
+                </button>  
+            </div>
 
-            </button>
-                
-            
-            
-        </div>
-
-
-
+            <h3 class="output-title">USD:</h3>
+            <span class="monetary">$</span>
+            <input type="text" class="output">
     </div>
     
     
